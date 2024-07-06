@@ -1,7 +1,7 @@
 package com.eerp.example.domain;
 
 import com.eerp.example.annotation.Excel;
-import com.eerp.example.core.BasicController;
+import com.eerp.example.core.BaseController;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 
@@ -9,7 +9,7 @@ import javax.persistence.Column;
 import java.math.BigDecimal;
 
 @Data
-public class CommoditySku extends BasicController {
+public class CommoditySku extends BaseController {
     private static final long serialVersionUID = 1L;
 
     /**

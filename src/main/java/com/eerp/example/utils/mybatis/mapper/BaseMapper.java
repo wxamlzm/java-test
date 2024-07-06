@@ -1,8 +1,8 @@
-package com.eerp.example.core;
+package com.eerp.example.utils.mybatis.mapper;
 
-import com.eerp.commodity.utils.mybatis.builder.OrderBy;
-import com.eerp.commodity.utils.mybatis.builder.P;
-import com.eerp.commodity.utils.mybatis.builder.PropertyFunction;
+import com.eerp.example.utils.mybatis.builder.OrderBy;
+import com.eerp.example.utils.mybatis.builder.P;
+import com.eerp.example.utils.mybatis.builder.PropertyFunction;
 import org.apache.ibatis.annotations.*;
 
 import java.io.Serializable;

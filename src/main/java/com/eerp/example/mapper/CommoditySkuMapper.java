@@ -3,7 +3,8 @@ package com.eerp.example.mapper;
 
 import com.eerp.example.domain.CommoditySku;
 import com.eerp.example.model.DataTransferObject.commodityRequest;
-import com.eerp.example.core.BaseMapper;
+import com.eerp.example.utils.mybatis.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.math.BigDecimal;

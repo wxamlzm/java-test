@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.eerp.example.core.BasicController;
+import com.eerp.example.core.BaseController;
 import com.eerp.example.core.TableDataInfo;
 import com.github.pagehelper.PageHelper;
 //import com.github.pagehelper.PageInfo;
@@ -23,7 +23,7 @@ import java.util.Objects;
 @RestController
 @Slf4j
 @RequestMapping("/sku")
-public class CommoditySkuController extends BasicController {
+public class CommoditySkuController extends BaseController {
 
 
     @Autowired

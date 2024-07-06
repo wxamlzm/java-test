@@ -1,0 +1,58 @@
+logging:
+  level:
+    com.mw: error
+    org.apache.ibatis: error
+    org.springframework: error
+    org.mybatis.spring: error
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    druid:
+      url: jdbc:mysql://127.0.0.1:3306/eerp-commodity?allowMultiQueries=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=Asia/Shanghai
+      username: root
+      password: M1S2bug!
+      initialSize: 5
+      minIdle: 10
+      maxActive: 20
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 300000
+      maxEvictableIdleTimeMillis: 900000
+      validationQuery: SELECT 1 FROM DUAL
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      webStatFilter:
+        enabled: true
+      statViewServlet:
+        enabled: true
+        allow:
+        url-pattern: /druid/*
+        login-username:
+        login-password:
+      filter:
+        stat:
+          enabled: false
+          log-slow-sql: false
+          slow-sql-millis: 1000
+          merge-sql: true
+        wall:
+          config:
+            multi-statement-allow: true
+
+  redis:
+    # 地址
+    host: 47.114.141.178
+    # 端口，默认为6379
+    port: 6379
+    database: 0
+    # 连接超时时间
+    password: 1122$3344
+
+eerp:
+  target:
+    inputInventory_url: http://121.40.247.239:8080/erp-api/inventory/inputInventory
+    appKey: 13
+    key: f1cbe8a9-6a25-4c8c-9bc7-7445e12a3deb
