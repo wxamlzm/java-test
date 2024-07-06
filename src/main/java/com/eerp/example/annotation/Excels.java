@@ -1,4 +1,4 @@
-package com.eerp.example.demo.annotation;
+package com.eerp.example.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

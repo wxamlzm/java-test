@@ -1,4 +1,4 @@
-package com.eerp.example.demo;
+package com.eerp.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

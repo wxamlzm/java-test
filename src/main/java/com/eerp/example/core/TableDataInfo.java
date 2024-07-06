@@ -1,4 +1,4 @@
-package com.eerp.example.demo.core;
+package com.eerp.example.core;
 
 import lombok.Data;
 

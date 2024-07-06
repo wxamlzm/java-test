@@ -1,7 +1,7 @@
-package com.eerp.example.demo.domin;
+package com.eerp.example.domain;
 
-import com.eerp.example.demo.annotation.Excel;
-import com.eerp.example.demo.core.BasicController;
+import com.eerp.example.annotation.Excel;
+import com.eerp.example.core.BasicController;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 

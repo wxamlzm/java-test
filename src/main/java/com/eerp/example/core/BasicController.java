@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.eerp.example.demo.core;
+package com.eerp.example.core;
 
-import com.eerp.example.demo.demos.web.User;
+import com.eerp.example.demos.web.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;

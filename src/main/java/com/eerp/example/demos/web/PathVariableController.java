@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.eerp.example.demo.demos.web;
+package com.eerp.example.demos.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.eerp.example.demo.demos.web;
+package com.eerp.example.demos.web;
 
 /**
  * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>
